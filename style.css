@@ -1,6 +1,6 @@
 body{
-    background-color:white;
-    font-family: Arial, sans-serif;
+    background-color:bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
@@ -57,6 +57,13 @@ a {
     transform: rotate(360deg) scale(10);
   }
 
+  .Backgorund{
+    background-color: bisque;
+  }
+
+  .Artist{
+    font-family: 'Courier New', Courier, monospace;
+  }
   /* body {
     animation: colorChange 1s infinite;
   }
