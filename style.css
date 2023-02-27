@@ -1,0 +1,94 @@
+body{
+    background-color:white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+a{
+    cursor: url("cursor.cur"), pointer;
+}
+
+img{
+    cursor: url("cursor.cur"), pointer;
+    display: block;
+    margin: 0 auto;
+    max-width: 10%;
+    height: auto;
+    border-radius: 20%;
+    overflow: hidden;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 48em
+}
+
+a {
+    animation: bounce 10s infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: calc(100vw - 200px);
+    }
+    100% {
+      margin-left: 0;
+    }
+  }
+
+  #heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  .hover-effect {
+    transition: transform 60s;
+  }
+  
+  .hover-effect:hover {
+    transform: rotate(360deg) scale(10);
+  }
+
+  /* body {
+    animation: colorChange 1s infinite;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-color: red;
+    }
+    25% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green;
+    }
+    75% {
+      background-color: yellow;
+    }
+    100% {
+      background-color: orange;
+    }
+  } */
+
+    /* h1 {
+    animation: run-away 1s linear infinite;
+    position: fixed;
+  }
+  
+  @keyframes run-away {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(calc((100vw - 100%) / 2), calc((100vh - 100%) / 2));
+    }
+  } */
