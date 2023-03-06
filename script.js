@@ -1,3 +1,7 @@
+document.getElementById('spin-button').addEventListener('click', function() {
+    document.body.classList.add('spin');
+  });
+
 // var heading = document.getElementById("heading");
 
 // var x = 0;

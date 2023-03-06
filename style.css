@@ -116,8 +116,30 @@ a {
     height: auto;
   }
  
+  #spin-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 1s;
+  }
+  
+  #spin-button:hover {
+    transform: rotate(360deg);
+  }
  
- 
+  .spin {
+    animation: spin 2s ease-in-out;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
  
   /* body {
     animation: colorChange 1s infinite;
