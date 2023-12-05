@@ -28,7 +28,7 @@ a{
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 56em
+    width: 86em
     
 }
 
@@ -45,30 +45,22 @@ h1{
   color: #ffffff;
 }
 
+.nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 a {
     animation: bounce 6s infinite;
     font-size: 32px;
 
   }
   
-  @keyframes bounce {
-    0% {
-      margin-left: 0;
-    }
-    25% {
-      margin-left: -400px;
-    }
-    50% {
-      margin-left: 0px;
-    }
-    75% {
-      margin-left: 400px;
-    }
-    100% {
-      margin-left: 0px;
-    }
-  }
-
+ 
  
 
   #heading {
@@ -144,7 +136,3 @@ a {
     animation: spin 2s ease-in-out;
   }
   
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
