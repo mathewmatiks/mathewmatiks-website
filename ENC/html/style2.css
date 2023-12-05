@@ -47,8 +47,10 @@ p{
 
 h1{
     font-size: 48px;
-  margin-top: 50px;
-  color: #ffffff;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
 }
 
 .nav a {
@@ -66,9 +68,6 @@ a {
 
   }
   
- 
- 
-
   #heading {
     position: absolute;
     top: 0;
@@ -122,23 +121,3 @@ a {
     height: auto;
   }
  
-  #spin-button {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform 1s;
-  }
-  
-  #spin-button:hover {
-    transform: rotate(360deg);
-  }
- 
-  .spin {
-    animation: spin 2s ease-in-out;
-  }
-  
