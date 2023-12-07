@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color:rgb(67, 78, 99);
+    background-color:#132329;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
@@ -32,6 +32,7 @@ body {
     height: auto;
     justify-content: center;
     margin: 50px;
+    border: 2px solid #132329;
   }
   
   .right-section {
@@ -57,13 +58,13 @@ body {
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    background-color: #91456f;
+    background-color: #AB8635;
   }
   
   .nav a {
     float: left;
     display: block;
-    color: #fff;
+    color: #FFC74F;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -71,16 +72,16 @@ body {
 }
 
 .nav-container {
-  background-color:rgb(67, 78, 99);
-  color: white;
+  background-color:#132329;
+  color: #FFC74F;
   text-align: center;
   padding: 10px;
   float: left;
 }
 
 .outcome {
-  background-color:rgb(67, 78, 99);
-  color: white;
+  background-color:#132329;
+  color: #FFC74F;
   text-align: center;
   padding: 10px;
   float: center;
@@ -96,21 +97,30 @@ body {
 
 .header h1{
   display: block;
-  color: #fff;
+  color: #FFC74F;
   text-align: center;
 }
 
 .nav-container a {
-  color: white;
+  color: #FFC74F;
   text-decoration: none;
   transition: color 0.3s, text-decoration 0.3s;
 }
 
 .nav-container a:hover {
-  color: #ffffff; /* You can set the desired hover color */
+  color: #FFC74F; /* You can set the desired hover color */
   text-decoration: underline;
 }
 
 a{
   cursor: url("cursor.cur"), pointer;
 }
+
+  .hover-effect {
+    transition: transform 60s;
+    margin-top: 50px;
+  }
+  
+  .hover-effect:hover {
+    transform: rotate(360deg) scale(10);
+  }
