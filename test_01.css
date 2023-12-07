@@ -32,6 +32,9 @@ body {
   }
 
   .left-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #91456f;
   }
   
@@ -42,4 +45,10 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.outcome {
+  display: block;
+  color: #fff;
+  text-align: center;
 }
