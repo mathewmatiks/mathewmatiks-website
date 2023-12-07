@@ -109,3 +109,7 @@ body {
   color: #ffffff; /* You can set the desired hover color */
   text-decoration: underline;
 }
+
+a{
+  cursor: url("cursor.cur"), pointer;
+}
