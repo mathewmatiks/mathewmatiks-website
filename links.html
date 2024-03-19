@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <img src="IMG_0443.GIF" alt="Name" class="gif">
+    <img src="IMG_0443.GIF" onclick="handleClick()" alt="Name" id="gif">
 
-    <h1>Hello, Here you can find useful links contact or look at my work!</h1>
+    <!-- <h1>Matvey Solomakho</h1> -->
 
     <div class="container">
 
@@ -23,8 +23,56 @@
         <a href="https://mathewmatiks.artstation.com/" class="Artist">ArtStation</a>
     </div>
     <div class="email">
-    <h1>matveysolomakho@gmail.com</h1>
+        <a href="mailto:matveysolomakho@gmail.com"  target="_blank" class="Artist">matveysolomakho@gmail.com</a>
+    
     </div>
+
+    <script>
+        var gif = document.getElementById("gif");
+
+        var artistElements = document.querySelectorAll('.Artist');
+
+        artistElements.forEach(function(element) {
+            element.style.color = 'black';
+        });
+
+
+
+const canVibrate = window.navigator.vibrate;
+let swapped = 1;
+
+function handleClick(){
+
+    if (canVibrate) window.navigator.vibrate(200);
+  
+  
+  if(!swapped){
+    gif.classList.add("invert");
+    // bg.classList.add("invert");
+    document.body.style.backgroundColor = "black";
+    // Loop through each element and change its text color to black
+artistElements.forEach(function(element) {
+    element.style.color = 'white';
+});
+    swapped = true;
+  } else {
+    gif.classList.remove("invert");
+    document.body.style.backgroundColor = "white";
+   // Loop through each element and change its text color to black
+artistElements.forEach(function(element) {
+    element.style.color = 'black';
+});
+    // bg.classList.remove("invert");
+    swapped = false;
+  }
+
+}
+
+
+
+// что ты ищещь?
+
+    </script>
 
 </body>
 </html>
