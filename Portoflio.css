@@ -3,11 +3,12 @@
     height: 90%;
     border: 1px solid red;
     position:absolute;
+    align-items:center ;
     display: flex;
     justify-content: space-between;
     padding: 0.1vw;
     position:relative;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(24, 24, 25);
     /* font: size 3px; */
 
 }
@@ -49,15 +50,15 @@ a{
 
 .content{
     border: 1px solid rgb(255, 0, 191);
-   
+    background-color: rgb(24, 24, 25);
 }
 
 .showcase{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    /* margin: 5%;
-    margin: 10vh; */
+    margin: 5%;
+    /* margin: 10vh; */
     flex-direction: column;
 
 }
@@ -68,24 +69,50 @@ a{
     align-items: center;
     margin: 5%;
     margin: 1vh;
+    font-size: 3vw;
+
 
 
 }
 
 .image{
+    /* position: absolute; */
     vertical-align:middle
     
     
 }
 
 img{
-    height: 60%;
+    /* height: 60%; */
     justify-content: center;
+    display: flex;
+    width: 32vw;
+
+    /* max-width: 100%;
+    height: auto;
+    width: auto\9; ie8 */
 }
 
 .filter{
     border: 1px solid rgb(0, 141, 21);
-    height: 40px;
+    height: 100px;
+    background-color: rgb(24, 24, 25);
 
+}
 
+.filterleft{
+    justify-content:left;
+    display: flex;
+
+    border: 1px solid rgb(32, 229, 255);
+    width: 60%;
+    height: 60%;
+
+}
+
+.filterright{
+    justify-content:right;
+    border: 1px solid rgb(32, 229, 255);
+    width: 60%;
+    height: 60%;
 }
