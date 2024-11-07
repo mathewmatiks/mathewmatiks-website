@@ -1,24 +1,37 @@
-dadada
-
-.container {
-    padding: 10px 10%;
-
-}
-
-nav{
+.header{
+    width: 100%;
+    border: 1px solid red;
+    position: fixed;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    padding: 2vw;
+    position:relative;
+    background-color: white;
+    font-size:12px;
+
 }
+
+
 
 .logo{
-    width: 140px;
+    width: 60%;
+    font-size:3vw;
+    /* font-size:12px; */
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:3vw;
+    
+}
+
+.navitem{
 
 }
 
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+a{
+    text-decoration: none;
+    color: black;
 }
